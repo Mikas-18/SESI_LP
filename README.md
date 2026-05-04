@@ -16,7 +16,7 @@ git config --global user.email "mikael.dinatale@aluno.senai.br"
 # 📂 Clonar repositório
 
 ````
-git clone <https://github.com/Mikas-18/SESI_LP.git>
+git clone https://github.com/Mikas-18/SESI_LP.git
 ````
 
 # ➕ Adicionar arquivos ao stage
