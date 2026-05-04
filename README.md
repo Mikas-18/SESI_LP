@@ -7,16 +7,16 @@ git config --list
 
 ````
 
-git config --global user.name "xxxxx"
+git config --global user.name "Mikas-18"
 ````
 
 ````
-git config --global user.email "xxxxx"
+git config --global user.email "mikael.dinatale@aluno.senai.br"
 ````
 # 📂 Clonar repositório
 
 ````
-git clone <link-do-repositorio>
+git clone <https://github.com/Mikas-18/SESI_LP.git>
 ````
 
 # ➕ Adicionar arquivos ao stage
