@@ -26,12 +26,15 @@ int main() {
 
 	printf("\n\nDigite uma Opção:");
 	scanf("%i", &OPÇÃO);
-	if(OPÇÃO>0) {
+	if (OPÇÃO > 0 && OPÇÃO <= 5) {
 		printf("\n\nDigite primeiro valor:");
 		scanf("%i", &n1);
 
 		printf("\nDigite segundo valor:");
 		scanf("%i", &n2);
+
+	} else if (OPÇÃO > 5) {
+		printf("Opção Invalida!");
 	}
 	//  soma= n1 + n2
 	if(OPÇÃO==1) {
@@ -67,10 +70,5 @@ int main() {
 
 	if(OPÇÃO==0) {
 	}
-
-
-
-
-
 
 }
